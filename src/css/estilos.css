@@ -1,0 +1,39 @@
+/*@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../../fonts/Open_Sans/OpenSans-Regular.eot");
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url("../../fonts/Open_Sans/OpenSans-Bold.eot");
+}*/
+body.mode_tablet , body.mode_tablet .form-group label, body.mode_tablet select.form-control, body.mode_tablet input.form-control, body.mode_tablet tspan, body.mode_tablet .nav-profile-text p, body.mode_tablet .sidebar .nav .nav-item .nav-link .menu-title{
+	font-size: 17px;	
+}
+body, select.form-control, input.form-control, .btn, label, tspan, .nav-profile-text p{
+	font-family: 'OpenSans-Regular' !important;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'OpenSans-Bold' !important;
+}
+.porcentaje_oferta{
+  position: inherit !important;
+  left: inherit !important;
+  opacity: inherit !important;
+}
+.parada_ .btn{
+	border-radius: 0px 10px 10px 0px !important
+}
+.card_btn{
+	cursor: pointer;
+}
+.cont_btn{ 
+	filter:brightness(0.7);
+}
+.title-grp{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.label-blue{
+	color: #00bcd4;
+}

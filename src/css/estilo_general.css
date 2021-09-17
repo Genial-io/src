@@ -1,0 +1,112 @@
+.btn{letter-spacing: 0px!important; border-radius: 10px !important;}
+.back_azul{background-color: #5f999a; letter-spacing: 0 !important;}
+.back_amarillo{background-color: #dedc1c; letter-spacing: 0 !important;}
+.text-blue{color: #001f2e;}
+.text-yellow{color: #dedc1c;}
+.back_oscuro{background-color: #001f2e;}
+.back_azul1{background-color: #298d8f;}
+.back_azul2{background-color: #dfe1e1 !important;}
+footer ul li{font-size: 1.1rem;}
+footer .list-group .list-group-item{
+	border: inherit;
+}
+
+.was-validated .form-control:invalid, .was-validated .form-control:valid{
+	border-width: 5px;
+}
+.hidden{
+	display: none;
+}
+
+.navbar .text-white:hover{
+	color: yellow !important;
+	text-decoration: underline !important;
+}
+/*@media (max-width:607px){
+	footer .views{
+		display: none;
+	}
+	footer .views1{
+		display: block;
+	}
+}
+@media (min-width:608px){
+	footer .views{
+		display: block;
+	}
+	footer .views1{
+		display: none;		
+	}
+}*/
+@media (max-width: 991px){
+	footer .row{
+		text-align: center !important;
+	}
+	footer .row .text-left {
+		padding: 0px 20px !important;
+	}
+	#navdefault{
+		background-color: #001f2e;
+	}
+	footer .views1{
+		display: block;
+	}
+	footer .views2, footer .views{
+		display: none;
+	}
+}
+@media (min-width: 992px) and (max-width: 1224px){
+	footer .views{
+		display: block;
+	}
+	footer .views1, footer .views2{
+		display: none;
+	}
+}
+
+@media (min-width: 1225px){
+	footer .views2{
+		display: block;
+	}
+	footer .views1, footer .views{
+		display: none;
+	}
+}
+
+.color-gris {
+	color: #6c757d !important;
+}
+
+.color-gris:hover {
+	text-decoration: none;
+}
+
+
+.text-como-funciona {
+	color: #ffffff; 
+	margin-bottom: 0; 
+	font-size: 1rem;
+	font-weight: normal;
+}
+.btn-yellow{
+	background-color: #dedc1c;
+    color: #001f2e;
+    border-color: #dedc1c;
+}
+.btn-yellow:hover, .btn-yellow:focus{
+	background-color: #001f2e;
+    color: #dedc1c;
+    border-color: #001f2e;
+}
+
+body.admin .modal-content{
+	border-color: #dedc1c;
+}
+body.mode_tablet .btn {
+  font-size: 20px !important;
+  height: 62px;
+}
+body.mode_tablet input, body.mode_tablet select {
+  font-size: 20px !important;
+  padding: 10px;
+}
