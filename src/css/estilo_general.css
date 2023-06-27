@@ -99,9 +99,6 @@ footer .list-group .list-group-item{
     border-color: #001f2e;
 }
 
-body.admin .modal-content{
-	border-color: #dedc1c;
-}
 body.mode_tablet .btn {
   font-size: 20px !important;
   height: 62px;
